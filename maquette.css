@@ -1,0 +1,272 @@
+.flexAround
+{
+    display: flex ;
+    justify-content:space-around;
+    align-items: center ;
+}   
+.flexBetween
+{
+    display: flex ;
+    justify-content:space-between ;
+    align-items: center ;
+} 
+.flexCenter
+{
+    display: flex ;
+    justify-content:center ;
+    align-items: center ;
+}  
+.lienzize  
+{
+   width:40%;
+}
+.colorlien13  
+{
+   color: blue;
+}
+.colorlien2  
+{
+   color:black ;
+}
+.declorationnone
+{
+    text-decoration: none;
+ }
+ .lienzizes
+ {
+  width: 140px;
+  height: 99px;
+ }
+ .bordurenav
+ {
+ border-top:1px solid blue ;
+ }
+ .html,body
+ {
+ font-family: Raleway;
+ }
+ .Grastext
+ {
+ font-weight: bold;
+ }
+ .bordureSearch
+ {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #d3d3d3;
+}
+.iconsize
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.recherche
+{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.bordurenone
+ {
+  border: none;
+}
+.backbleu
+ {
+  background-color:blue ;
+}
+.backbleuclair
+ {
+  background-color:royalblue;
+}
+.backGris
+ {
+  background-color:#d3d3d3;
+}
+.buttunSearch
+ {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+.paddingrecherche
+ {
+  padding: left 20px; 
+}
+/* Filtre*/
+.filtre
+ {
+  display: flex;
+  align-items:center ;
+}
+.filtremarge
+{
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+.filtremargetitre
+{
+ margin-right: 20px;
+}
+.texticonfiltre
+{
+ border: 2px solid #d3d3d3;
+ border-radius: 30px;
+ margin-right: 20px;
+ height: 50px;
+}
+.iconfiltre
+{   
+ width: 52px;
+ height: 52px;
+ border-radius: 25px;
+ color: royalblue;
+ background-color: aliceblue;
+ margin-left: -2px;
+}
+/*infoicone*/
+.infoicone
+{   
+ display: flex;
+ align-items: center;
+}
+.flexAround
+{
+    display: flex ;
+    justify-content:space-around;
+    align-items: center ;
+}   
+.flexBetween
+{
+    display: flex ;
+    justify-content:space-between ;
+    align-items: center ;
+} 
+.flexCenter
+{
+    display: flex ;
+    justify-content:center ;
+    align-items: center ;
+}  
+.lienzize  
+{
+   width:40%;
+}
+.colorlien13  
+{
+   color: blue;
+}
+.colorlien2  
+{
+   color:black ;
+}
+.declorationnone
+{
+    text-decoration: none;
+ }
+ .lienzizes
+ {
+  width: 140px;
+  height: 99px;
+ }
+ .bordurenav
+ {
+ border-top:1px solid blue ;
+ }
+ .html,body
+ {
+ font-family: Raleway;
+ }
+ .Grastext
+ {
+ font-weight: bold;
+ }
+ .bordureSearch
+ {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #d3d3d3;
+}
+.iconsize
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.recherche
+{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.bordurenone
+ {
+  border: none;
+}
+.backbleu
+ {
+  background-color:blue ;
+}
+.backbleuclair
+ {
+  background-color:royalblue;
+}
+.backGris
+ {
+  background-color:#d3d3d3;
+}
+.buttunSearch
+ {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+.paddingrecherche
+ {
+  padding: left 20px; 
+}
+/* Filtre*/
+.filtre
+ {
+  display: flex;
+  align-items:center ;
+}
+.filtremarge
+{
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+.filtremargetitre
+{
+ margin-right: 20px;
+}
+.texticonfiltre
+{
+ border: 2px solid #d3d3d3;
+ border-radius: 30px;
+ margin-right: 20px;
+ height: 50px;
+}
+.iconfiltre
+{   
+ width: 52px;
+ height: 52px;
+ border-radius: 25px;
+ color: royalblue;
+ background-color: aliceblue;
+ margin-left: -2px;
+}
+/*infoicone*/
+.infoicone
+{   
+ display: flex;
+ align-items: center;
+}
