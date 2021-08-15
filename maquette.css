@@ -270,3 +270,33 @@
  display: flex;
  align-items: center;
 }
+.info
+{   
+color: royalblue;
+
+}
+.iconepadre
+{   
+height: 20px;
+width: 20px;
+border: 2px solid #d3d3d3;;
+border-radius: 25px;
+margin-right: 10px;
+
+}
+/* Hebergement*/
+.sizehebergement
+{ 
+flex: 2;  
+height: 650px;
+border-radius: 10px;
+margin: right 20px; 
+}
+.sizepopulaire
+{   
+flex: 1;
+height: 650px;
+border-radius: 10px;
+margin-left: 20px;
+}
+
