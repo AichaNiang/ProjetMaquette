@@ -45,10 +45,6 @@
  {
  font-family: Raleway;
  }
- .Grastext
- {
- font-weight: bold;
- }
  .bordureSearch
  {
     width: 400px;
@@ -353,4 +349,114 @@ background-size: cover;
 background-position: center;
 border-radius: 15px 15px 0 0;
 }
+.blochebergement
+{
+padding-left: 20px;
+padding-right: 20px;
 
+}
+
+.flexcoluAround
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}   
+.flexcolunBetween
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content:space-between ;
+    
+} 
+.flexcolunCenter
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content:center ;
+   
+}  
+.volumehebergement
+{
+width: 30%;
+height:auto;
+background-color: white;
+padding: 1%;
+border-radius: 20px;
+ 
+}  
+.bloc1
+{
+   margin-bottom: 10px;
+   
+}  
+.bloc2
+{
+   margin-top: 10px;
+   
+}  
+.volumedetailhebergements
+{
+   width: 90%; 
+}  
+/* populaires   */
+.blocpopulaire
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.iconesize
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.imagepopulaire1
+{   
+background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+width: 35%;
+height: 160px;
+background-size: cover;
+background-position: center;
+border-radius: 15px  0 0 15px;
+}
+.imagepopulaire2
+{   
+background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+width: 35%;
+height: 160px;
+background-size: cover;
+background-position: center;
+border-radius: 15px  0 0 15px;
+}
+.imagepopulaire3
+{   
+background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+width: 35%;
+height: 160px;
+background-size: cover;
+background-position: center;
+border-radius: 15px  0 0 15px;
+}
+.volumepopulaire
+{   
+background-color: white;
+height: auto;
+padding: 1% 0 1% 1%;
+border-radius: 5%;
+}
+.blocpopulaire
+{   
+padding-left: 20px;
+padding-right: 20px;
+}
+.blocpopulaire12
+{   
+margin-bottom: 20px;
+
+}
+.volumepopulairedetail
+{   
+width: 60%;
+padding-left: 5%;
+}
