@@ -18,20 +18,23 @@
     <title>Reservia</title>
 </head>
 <body>
-    <nav>
-        <div class="flexBetween">
-            <div><img src="./images/Reservia.svg" alt="Logo Reservia"></div>
-            <div class=" lienzize flexAround ">
+    <nav class="sizenav">
+        <div class=" lienzize flexBetween">
+            <div>
+                <img src="./images/Reservia.svg" alt="Logo Reservia">
+            </div>
+            <div class=" lienzize12 flexCenter">
                 <div class="lienzizes flexCenter bordurenav">
                     <a class=" declorationnone colorlien2 " href="#">Hèbergements</a>
                 </div>
                 <div class="lienzizes flexCenter bordurenav">
                     <a class="declorationnone colorlien2" href="#">Activitès</a>
                 </div>
+            </div>
                 <div class="lienzizes flexCenter bordurenav" >
                     <a class=" Grastext declorationnone colorlien13" href="#">S'inscrire</a>
                 </div>
-            </div>
+           
         </div>
     </nav>
     <header>
@@ -41,7 +44,7 @@
                <p>En plein centre ville ou en pleine nature</p>
            </div> 
            <div class=" bordureSearch  flexCenter">
-               <div class="iconsize backGris flexCenter">
+               <div class="iconsize  flexCenter colorbacGris">
                    <i class="fas fa-map-marker-alt"></i>
                 </div>
                <div>
@@ -49,44 +52,52 @@
             </div>
                <div class="backbleuclair flexCenter buttunSearch">Rechercher</div>
            </div>
-           <div class="filtre filtremarge">
-               <div class="texticonfiltre flexCenter">
+           <div class="mobilefiltewrap filtre filtremarge">
+               <div class=" filtremargetitre flexCenter">
                    <h3>Filtres</h3>
                 </div>
+                <!-- On rajoute 2 div FlexAround-->
+                <!-- div1-->
+                <div class="flexAround">
                <div class="texticonfiltre flexBetween flexCenter">
                    <i class="fas fa-money-bill fa-lg  iconfiltre flexCenter ">
 
                    </i>
-                   <div>Economique</div>
+                   <div class="textfiltre flexCenter Grastext">Economique</div>
                 </div>
-               <div class="texticonfiltre flexBetween">
+               <div class="texticonfiltre flexBetween flexCenter">
                    <i class="fas fa-child iconfiltre flexCenter">
 
                    </i>
-                   <div>Familial</div>
+                   <div class="textfiltre flexCenter Grastext">Familial</div>
                 </div>
-               <div class="texticonfiltre flexBetween">
+            </div>
+             <!-- div2-->
+            <div class="mobilefiltewrap flexAround">
+               <div class="texticonfiltre flexBetween flexCenter">
                    <i class="fas fa-heart  fa-lg iconfiltre flexCenter">
 
                    </i>
-                   <div>Romantique</div>
+                   <div class="textfiltre flexCenter Grastext">Romantique</div>
                 </div>
-               <div class="texticonfiltre flexCenter">
+               <div class="texticonfiltre flexCenter ">
                    <i class="fas fa-dog fa-lg  iconfiltre flexCenter ">
 
                    </i>
-                   <div>Animaux Autorisès</div>
+                   <div class="textfiltre flexCenter Grastext">Animaux Autorisès</div>
                 </div>
             </div>
-           <div class="infoicone ">
-           <div class="iconepadre flexCenter"><i class="fas fa-info info fa-xs"></i>
+        </div>
+
+           <div class="infoicone">
+           <div class="iconepadre flexCenter"><i class="fas fa-info info fa-xs  flexCenter"></i>
         </div>
                <p>Plus de 500 logements dans cette ville</p>
            </div>
         </section>
     </header>
-    <section class="flexAround"> 
-        <div class="flexcoluAround hebergementsize backGris blochebergement">
+    <section id="hebergements" class="flexAround"> 
+        <div class="flexcoluAround hebergementsize colorbacGris blochebergement">
             <h3>Hebergements a Marseille</h3>
             <div class="bloc1 flexBetween">
                 <div class="volumehebergement flexcolunCenter"> 
@@ -186,9 +197,9 @@
             <div></div>
             <p class="Grastext">Afficher plus</p>
         </div>
-        <div class="populairesize backGris blocpopulaire">
+        <div class="populairesize colorbacGris blocpopulaire">
             <div class="flexBetween">
-                <h3 class="Grastext ">Les plus Populaires</h3>
+                <h3 class=" tablettesizepopulaire Grastext ">Les plus Populaires</h3>
                 <div ><i class="fas fa-chart-line fa-lg"></i>
                 </div>
             </div>
