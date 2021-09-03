@@ -20,14 +20,14 @@
 <body>
     <nav class="sizenav">
         <div class=" lienzize flexBetween">
-            <div>
+            <div class="mobiletitreParent">
                 <img src="./images/Reservia.svg" alt="Logo Reservia">
             </div>
-            <div class=" lienzize12 flexCenter">
-                <div class="lienzizes flexCenter bordurenav">
+            <div class=" lienzize12  flexCenter">
+                <div class="lienzizes liensizemobile flexCenter bordurenav">
                     <a class=" declorationnone colorlien2 " href="#">Hèbergements</a>
                 </div>
-                <div class="lienzizes flexCenter bordurenav">
+                <div class="lienzizes liensizemobile flexCenter bordurenav">
                     <a class="declorationnone colorlien2" href="#">Activitès</a>
                 </div>
             </div>
@@ -39,7 +39,7 @@
     </nav>
     <header>
         <section>
-           <div>
+           <div class="mobiletitreParent">
                <h1 class="Grastext">Trouvez votre hèbergement pour vos vacances de reves</h1>
                <p>En plein centre ville ou en pleine nature</p>
            </div> 
@@ -50,7 +50,10 @@
                <div>
                 <input class="recherche flexCenter bordurenone paddingrecherche" type="search" value="Marseille,France">
             </div>
-               <div class="backbleuclair flexCenter buttunSearch">Rechercher</div>
+               <div class="backbleuclair flexCenter buttunSearch"> 
+                   <span class="mobilenone">Rechercher</span> 
+                <samp class="desktopnone"><i class="fas fa-search"></i></samp>
+                </div>
            </div>
            <div class="mobilefiltewrap filtre filtremarge">
                <div class=" filtremargetitre flexCenter">
@@ -59,13 +62,13 @@
                 <!-- On rajoute 2 div FlexAround-->
                 <!-- div1-->
                 <div class="flexAround">
-               <div class="texticonfiltre flexBetween flexCenter">
+               <div class=" mobileeconomiques texticonfiltre flexBetween flexCenter">
                    <i class="fas fa-money-bill fa-lg  iconfiltre flexCenter ">
 
                    </i>
                    <div class="textfiltre flexCenter Grastext">Economique</div>
                 </div>
-               <div class="texticonfiltre flexBetween flexCenter">
+               <div class="mobilesfamiliales texticonfiltre flexBetween flexCenter">
                    <i class="fas fa-child iconfiltre flexCenter">
 
                    </i>
@@ -252,7 +255,7 @@
         </div>
     </section>
     <section class="Activites">
-        <h2>Activites a Marseille</h2>
+        <h2 class="mobiletitreParent">Activites a Marseille</h2>
 <div class="blocActivites flexBetween" >
 <div class="volumeactivites  flexcolunCenter">
 <div class=" imageActivites1"></div>

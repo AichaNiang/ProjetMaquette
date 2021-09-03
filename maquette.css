@@ -55,10 +55,53 @@
  {
  color: royalblue;
  }
+ .margefiltre
+ {
+  margin-left: 5%;
+ }
+ .mobileeconomiques
+ {
+  margin-right: 5px;
+ }
+ .mobilesfamiliales
+ {
+  margin-right: 0;
+ }
+ .textfiltre
+ {
+  padding-right: 10px;
+  padding-left: 10px;
+ }
+ .infoicone
+ {
+ padding-left: 5%;
+ }
+ .blocpopulaire
+ {
+  border-radius: 0px;
+ }
+ .blochebergement
+ {
+background-color: white;
+ }
+ .mobiletitreParent
+ {
+  padding-left: 5%;
+ }
  .html,body
  {
  font-family: Raleway;
  }
+ .desktopnone
+  {
+    display: none;
+  }
+  .blocActivites
+  {
+  padding: 5%;
+  width: 90%;
+  
+  }
  .bordureSearch
  {
     width: 400px;
@@ -412,6 +455,7 @@ height:auto;
 background-color: white;
 padding: 1%;
 border-radius: 20px;
+box-shadow: 5px 5px 5px 1px #F2F2F2;
 }  
 .volumehebergement:hover
 {
@@ -497,6 +541,10 @@ padding-left: 5%;
 {   
 margin-top: 50px;
 margin-bottom: 50px;
+}
+.sizenav
+{   
+ height: auto;  
 }
 .blocActivites
 {   
@@ -665,7 +713,7 @@ margin-left: 35%;
     padding-left: 20px;
   }
   .
-  tablettesizepopulaire
+  .tablettesizepopulaire
   {
   margin-top: o;              
   }
@@ -765,5 +813,67 @@ padding-left: 20px;
 {
 margin-left: 0;
 } 
+}
+@media screen  and (max-width:600px)
+{
+ .lienzize12 
+ {
+   order: 1;
+   width: 100%;
+   margin-left: 0;
 
+}
+.lienzizes
+{
+flex-direction: row;
+} 
+.liensizemobile
+ {
+ 
+width: 50%;
+border-top:none ;
+border-bottom: 5px solid #F2F2F2;
+}
+.liensizemobile:hover
+ {
+ border-top: 0;
+ border-bottom: 5px solid #0065fc;
+
+}
+.lienzize
+{
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+ 
+}
+.buttunSearch
+{
+  width: 50px;
+  border-radius: 15px;
+}
+.titremobile
+{
+ font-size: x-large;  
+}
+.bordureSearch
+{
+ width: auto;
+ border: none; 
+  }
+  .desktopnone
+  {
+    display: block;
+  }
+  .mobilenone
+  {
+    display: none;
+  }
+.recherche
+{
+ width: 200px;
+ border-bottom:1px solid #d3d3d3 ;
+ border-top:1px solid #d3d3d3 ;
+   
+}
 }
