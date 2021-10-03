@@ -1,3 +1,8 @@
+body
+{
+  max-width: 1440px;
+  margin: auto;
+}
 .flexAround
 {
     display: flex ;
@@ -188,12 +193,12 @@ background-color: white;
  margin-right: 20px;
  height: 50px;
 }
-.texticonfiltre:hover > .textfiltre
+.texticonfiltre :hover > .textfiltre
 {
  color: blue;
 }
 
-.texticonfiltre:hover> .iconfiltre
+.texticonfiltre :hover> .iconfiltre
 {
  color: white;
  background-color: blue;
@@ -567,10 +572,7 @@ cursor: pointer;
 transform: scale(1.03);
 }
 /* hateur*/
-.hauteurtitre
-{ 
-height: 70%;
-}
+
 .activitestitre
 { 
 display: flex;
@@ -584,7 +586,7 @@ width: 95%;
 { 
 background-image: url("./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 width: 100%;
-height: 250px;
+height: 270px;
 background-size: cover;
 background-position: center;
 border-radius: 15px 15px 0 0;
@@ -607,7 +609,7 @@ box-shadow: 5px 5px 5px 1px #d3d3d3;
 .blocActivites2356
 {   
 width: 23%;
-height: 600px;
+height: 590px;
 }
 .imageActivites4
 { 
@@ -622,7 +624,7 @@ border-radius: 15px 15px 0 0;
 { 
 background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 width: 100%;
-height: 150px;
+height: 170px;
 background-size: cover;
 background-position: center;
 border-radius: 15px 15px 0 0;
@@ -795,6 +797,7 @@ height: auto;
 } 
 .volumeactivites2356
 {
+ 
  margin-bottom: 50px;
 } 
 .imageActivites1,.imageActivites2,.imageActivites3,.imageActivites4,.imageActivites5,.imageActivites6
