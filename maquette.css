@@ -365,32 +365,28 @@ margin-right: 10px;
    margin-left: 20px;
    border-radius: 10px;
 }
+.imagehebergementcommun
+{
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}  
 .imagehebergement1
 {   
 background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-width: 100%;
-height: 120px;
-background-size: cover;
-background-position: center;
-border-radius: 15px 15px 0 0;
+
 }
 .imagehebergement2
 {   
 background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-width: 100%;
-height: 120px;
-background-size: cover;
-background-position: center;
-border-radius: 15px 15px 0 0;
+
 }
 .imagehebergement3
 {   
 background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-width: 100%;
-height: 120px;
-background-size: cover;
-background-position: center;
-border-radius: 15px 15px 0 0;
+w
 }
 .imagehebergement4
 {   
